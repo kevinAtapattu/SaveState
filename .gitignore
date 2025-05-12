@@ -1,5 +1,12 @@
-# game-tracker-backend/.gitignore
-.venv/
-.env
-__pycache__/
-*.py[cod]
+# Python backend
+backend/.venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/.env
+
+# Node frontend
+frontend/node_modules/
+frontend/dist/
+
+# Misc
+.DS_Store
